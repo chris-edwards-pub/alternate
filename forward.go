@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin/forward"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"github.com/coredns/coredns/tree/master/plugin/forward"
+	"github.com/coredns/coredns/tree/master/plugin/pkg/parse"
 	"github.com/coredns/coredns/tree/master/plugin/pkg/proxy"
+	"github.com/coredns/coredns/tree/master/plugin/pkg/transport"
 )
 
 const defaultExpire = 10 * time.Second
