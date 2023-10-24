@@ -1,4 +1,5 @@
-module github.com/coredns/alternate
+// module github.com/coredns/alternate
+module github.com/chris-edwards-pub/alternate
 
 go 1.14
 
